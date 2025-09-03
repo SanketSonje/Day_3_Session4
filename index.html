@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox Layout Lab</title>
+    <link rel="stylesheet" href="responsive.css" />
+    <script
+      src="https://kit.fontawesome.com/a2d04e56a4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header / Navbar -->
+      <nav>
+        <div class="logo">
+          <p>Developer</p>
+        </div>
+
+        <!-- Hamburger Toggle -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="main">
+        <div class="mainText">
+          <h3>Hello I Am</h3>
+          <h1>Sanket <span>Sonje</span></h1>
+          <p>FullStack Developer</p>
+          <button id="cvBtn">Download CV</button>
+        </div>
+        <img src="Sanket.jpeg" alt="Profile Picture" />
+      </div>
+
+      <!-- About Section -->
+      <div class="aboutus" id="about">
+        <div class="head">
+          <h1>About <span>Me</span></h1>
+        </div>
+        <div class="about">
+          <img src="Sanket.jpeg" alt="About Image" />
+          <div class="aboutText">
+            <h2>I am a FullStack <span>Developer</span></h2>
+            <p>
+              Hello, I am Sanket Pramod Sonje. I completed my B.Tech degree in
+              Electronics & Telecommunication Engineering from R.C.Patel
+              Institute of Technology, Shirpur.
+            </p>
+            <p>Speciality: <span>Website Development</span></p>
+            <p>
+              Skills:
+              <span>HTML, CSS, JavaScript, Git & GitHub, Java, SQL</span>
+            </p>
+            <p>Email: <span>sanketsonje2@gmail.com</span></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Section -->
+      <div class="education" id="education">
+        <div class="head">
+          <h1>My <span>Education</span></h1>
+        </div>
+        <div class="education-container">
+          <div class="edu-card">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <h2>B.Tech in Electronics & Telecommunication</h2>
+            <p>R.C. Patel Institute of Technology, Shirpur</p>
+            <p><strong>Year:</strong> 2024</p>
+          </div>
+          <div class="edu-card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Diploma in Computer Science</h2>
+            <p>MSBTE</p>
+            <p><strong>Year:</strong> 2021</p>
+          </div>
+          <div class="edu-card">
+            <i class="fa-solid fa-chalkboard-user"></i>
+            <h2>SSC</h2>
+            <p>Ganesh High-School</p>
+            <p><strong>Year:</strong> 2018</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Projects Section -->
+      <div class="projects" id="work">
+        <div class="head">
+          <h1>My <span>Projects</span></h1>
+        </div>
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>
+              Java-based desktop app to manage student data, attendance, and
+              grades.
+            </p>
+            <p><strong>Tech:</strong> Java, Swing, MySQL</p>
+            <a
+              href="https://github.com/SanketSonje/Student_Management_System_App.git"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+          <div class="project-card">
+            <h3>Spotify Clone</h3>
+            <p>
+              A frontend clone of Spotify with responsive design and music
+              player UI.
+            </p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+            <a
+              href="https://github.com/SanketSonje/Spotify_Clone_Website.git"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+              This website showcases my skills, education, and project
+              portfolio.
+            </p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+            <a
+              href="https://github.com/SanketSonje/Web_Development_Portfolio_Website.git"
+              target="_blank"
+              >View Project</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="form" id="contact">
+        <div class="head">
+          <h1>Connect <span>With Me</span></h1>
+        </div>
+        <div class="contact">
+          <p>Email:</p>
+          <input type="text" placeholder="Enter Email" id="email" />
+          <p>Password:</p>
+          <input type="password" placeholder="Enter Password" id="pass" />
+          <p>Message:</p>
+          <textarea placeholder="Enter Message" id="mess"></textarea>
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <div class="text">
+          <h3>Connect Here</h3>
+          <p>LinkedIn</p>
+          <p>Facebook</p>
+        </div>
+        <div class="text">
+          <h3>My Work</h3>
+          <p>Quality</p>
+          <p>Best Price</p>
+        </div>
+        <div class="text">
+          <h3>Effort</h3>
+          <p>Best Work</p>
+          <p>Affordable</p>
+        </div>
+        <div class="text">
+          <h3>Contact</h3>
+          <p>sanketsonje2@gmail.com</p>
+          <p>+91 8605555201</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
